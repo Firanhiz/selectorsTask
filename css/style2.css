@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* task 1 */
+p[class='active'] {
+    color: green;
+}
+
+p.task-one{
+    color: purple;
+}
+/* task 1 */
+
+/* task 2 */
+div[data-status='ok'] {
+    color: blue;
+}
+
+div[data-status='error'] {
+    color: red;
+}
+/* task 2 */
+
+/* task 3 */
+span[id] {
+    font-size: 18px;
+    color: hotpink;
+}
+/* task 3 */
+
+
+/* task 4 and 5 */
+.inline-div {
+    display: inline-block;
+}
+
+.img-div1 {
+    display: inline-block;
+    border: 3px dashed  navy; 
+    height: 300px;
+    width: 400px;
+    background-image: url(../img/images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.img-div2 {
+    display: inline-block;
+    border: 3px dashed  navy; 
+    height: 300px;
+    width: 400px;
+    background-image: url(../img/images\ \(3\).jpg);
+    background-size: cover;
+}
+/* task 4 and 5 */
+
+/* task 6 */
+ul li:nth-child(even) {
+    color: red;
+}
+/* task 6 */
+
+/* task 7 metnin qalan hissesi niye qirmizi????????????*/
+.p-lorem::first-line {
+    color: hotpink;
+}
+/* task 7 */
+
+/* task 8 niye outline yazmadan border qirmizi olmur????*/
+.input-text:focus {
+    outline: none; 
+    border-color: red;
+}
+/* task 8 */
+
+/* task 9 */
+.color1 {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+
+.color2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua; 
+}
+/* task 9 */
+
+/* tasks 10 and 15 */
+.div-parent {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.div-child {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    bottom: 25px;
+    right: 25px;  
+    width: 150px;
+    height: 150px;
+}
+
+.div-parent > .div-child{
+    background-color: green;
+}
+/* tasks 10 and 15 */
+
+/* task 11 */
+#p1 {
+    color: blue;
+}
+
+.class {
+    color: red;
+}
+
+.p2 + p {
+    color: green;
+}
+/* task 11 */
+
+/* task 12 */
+.div-em {
+    border: 2px solid purple;
+    font-size: 30px;  
+    width: 8em;
+    height: 4em;
+}
+/* task 12 */
+
+/* task 13 */
+html {
+    font-size: 16px;
+}
+
+.div-rem {
+    border: 2px solid red;
+    height: 2rem;
+    width: 4rem;
+}
+/* task 13 */
+
+/* task 14 */
+.vh-vw {
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+}
+/* task 14 */
+
+/* task 16 */
+.div-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.relative-absolute {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.img-fixed {    
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border-radius: 100px;
+    border: 3px solid blue; 
+    width: 100px;
+    height: 100px;
+}
+/* task 16 */
+
+/* task 17 */
+.sticky-div {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid black;
+  }
+
+  .sticky-img {
+    height: 251px;
+    margin-right: 20px;
+  }
+
+  .div-text {
+    padding-bottom:700px
+  }
+/* task 17 */
+
+/* task 18 */
+.google-fonts {
+    font-family: 'Lemon', cursive;
+}
+/* task 18 */
+
+/* tasks 19 and 20 */
+.tasks19_20 {
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: 'Lemon', cursive;
+    line-height: 48px;
+    
+}
+/* tasks and 20 */
+
